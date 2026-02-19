@@ -1,0 +1,19 @@
+[project]
+name = "ue4ss-installer-core"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Mythical-Github", email = "67753356+Mythical-Github@users.noreply.github.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "requests>=2.32.5",
+]
+
+[project.scripts]
+ue4ss-installer-core = "ue4ss_installer_core:main"
+
+[build-system]
+requires = ["uv_build>=0.9.26,<0.10.0"]
+build-backend = "uv_build"
